@@ -82,6 +82,12 @@ func main() {
 	}
 	micro.RegisterSubscriber("filesharing.file.event", srv.Server(), ts.StoreEvent, server.SubscriberQueue("filesharing.tg.service.queue"))
 
+	go func() {
+		if err := ts.RunTGBot(); err != nil {
+			logger.Errorln(fmt.Errorf("unable to run telegram bot: %w", err))
+		}
+	}()
+
 	err = srv.Run()
 	if err != nil {
 		logger.Errorln(err)
