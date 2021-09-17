@@ -63,9 +63,9 @@ func (ts *TelegramService) StoreEvent(ctx context.Context, req *event.FileEvent)
 	msgText := ""
 	switch req.Action {
 	case event.Action_Add:
-		msgText = fmt.Sprintf("file %s added to storage %s", req.FileName, req.UserName)
+		msgText = fmt.Sprintf("file \"%s\" added to storage \"%s\"", req.FileName, req.UserName)
 	case event.Action_Remove:
-		msgText = fmt.Sprintf("file %s removed to storage %s", req.FileName, req.UserName)
+		msgText = fmt.Sprintf("file \"%s\" removed from storage \"%s\"", req.FileName, req.UserName)
 	}
 
 	ts.m.Lock()
@@ -73,7 +73,8 @@ func (ts *TelegramService) StoreEvent(ctx context.Context, req *event.FileEvent)
 
 	for _, chatID := range ts.users {
 		msg := tgbotapi.NewMessage(chatID, msgText)
-		ts.bot.Send(msg)
+		_, err := ts.bot.Send(msg)
+		return err
 	}
 	return nil
 }

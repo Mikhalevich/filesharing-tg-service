@@ -10,6 +10,8 @@ import (
 	"github.com/asim/go-micro/v3"
 	"github.com/asim/go-micro/v3/server"
 	"github.com/sirupsen/logrus"
+
+	_ "github.com/asim/go-micro/plugins/broker/nats/v3"
 )
 
 type params struct {
