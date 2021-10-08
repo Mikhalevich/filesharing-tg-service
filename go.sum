@@ -52,13 +52,15 @@ github.com/Mikhalevich/filesharing v0.0.0-20210713200342-691eaedbbeeb/go.mod h1:
 github.com/Mikhalevich/filesharing v0.0.0-20210713210515-73c0df3e69ff/go.mod h1:OvZFiycI7AXqB8z7bmnfdT7BI+LWBNb82u+O/CTAzpQ=
 github.com/Mikhalevich/filesharing v0.0.0-20210823124302-9815d8d1761c/go.mod h1:vwZNOF+g9P96teZKClz7MLrj1M+5oP/fzpzSGdcESSY=
 github.com/Mikhalevich/filesharing v0.0.0-20210823194614-91f994d1f2d9/go.mod h1:n5r3RoaOf0VAeRZD5Fz1Y5qaGTMoZubwj2PKxThXBY8=
-github.com/Mikhalevich/filesharing v0.0.0-20210825114828-edc95eeb2c4b h1:f8Sstl35hxf4gs9YReC+dO93RnLx+ospjp9BNIwV2e8=
-github.com/Mikhalevich/filesharing v0.0.0-20210825114828-edc95eeb2c4b/go.mod h1:OwlSqc8Do6mOUiDvmkewuBOaUAdIh/lU/GCCNWbkdao=
+github.com/Mikhalevich/filesharing v0.0.0-20211001103133-ba67b36df345 h1:DiNayVd/TjcMXBiBgWyfCs9GRpx/r4AzPb8L2Ft0/tw=
+github.com/Mikhalevich/filesharing v0.0.0-20211001103133-ba67b36df345/go.mod h1:plNE8pE3sIEm76nlCzGL2GILBvzjMmorsDKuiZvenXU=
 github.com/Mikhalevich/filesharing-auth-service v0.0.0-20210713170333-b9322ac05455/go.mod h1:ap44UWKjGuBvSPXkR37bd3dbBCR9UtRi2aDygV94KZ0=
 github.com/Mikhalevich/filesharing-auth-service v0.0.0-20210713200756-ad899200b5e7/go.mod h1:DNF02bXuiThIt0StUx1KANsUdWbKGVqmYExFbwbkZAs=
 github.com/Mikhalevich/filesharing-auth-service v0.0.0-20210820132202-552026a6981e/go.mod h1:z/JLjelIkd1Mqd0k3xb1gJfWr1ZgyUkTd8hTm4QscyQ=
 github.com/Mikhalevich/filesharing-auth-service v0.0.0-20210823130957-262940af1b30/go.mod h1:OubsBGFxjHJdErmMNy/rlQkdc4NGzCa9pS9HagtZryE=
 github.com/Mikhalevich/filesharing-auth-service v0.0.0-20210824202157-826ac9282cf8/go.mod h1:HGtBRcivwukdB3VEQ/U64Fa45dg6lOP8+XwmXUzM/8Y=
+github.com/Mikhalevich/repeater v0.0.0-20211001095921-a918445112cf h1:mYjlVRbWmXkC6uSYiPWxHtyppqdC2gmSCXBaYVgsbf8=
+github.com/Mikhalevich/repeater v0.0.0-20211001095921-a918445112cf/go.mod h1:5R6XpRNU1jQbGV89xIVoW3zuv3hbfum6bLjplcSonFw=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/OpenDNS/vegadns2client v0.0.0-20180418235048-a3fa4a771d87/go.mod h1:iGLljf5n9GjT6kc0HBvyI1nOKnGQbNB66VzSNbK5iks=
 github.com/ProtonMail/go-crypto v0.0.0-20210428141323-04723f9f07d7/go.mod h1:z4/9nQmJSSwwds7ejkxaJwO37dru3geImFUdJlaLzQo=
